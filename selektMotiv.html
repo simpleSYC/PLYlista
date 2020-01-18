@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<style>
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+<body>
+
+<h2>Filter DIV Elements</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+  <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+  <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+</div>
+ numberTMA="" 
+<div class="container"> 
+  <div id="SLK_1" numberTMA="1"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(0);idEE=document.getElementById('SLK_1');SLKT();" class="filterDiv cars" ATRBtxtITEM="BMW" >BMW</div>
+  <div id="SLK_2" numberTMA="2"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(1);idEE=document.getElementById('SLK_2');SLKT();" class="filterDiv colors fruits" ATRBtxtITEM="Orange" >Orange</div>
+  <div id="SLK_3" numberTMA="3" ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(2);idEE=document.getElementById('SLK_3');SLKT();" class="filterDiv cars" ATRBtxtITEM="Volvo" >Volvo</div>
+  <div id="SLK_4" numberTMA="4"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(3);idEE=document.getElementById('SLK_4'),SLKT();" class="filterDiv colors" ATRBtxtITEM="Red" >Red</div>
+  <div id="SLK_5" numberTMA="5"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(4);idEE=document.getElementById('SLK_5'),SLKT();"  class="filterDiv cars animals" ATRBtxtITEM="Mustang" >Mustang</div>
+  <div id="SLK_6" numberTMA="6"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(5);idEE=document.getElementById('SLK_6'),SLKT();"   class="filterDiv colors" ATRBtxtITEM="Blue" >Blue</div>
+  <div id="SLK_7" numberTMA="7" ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(6);idEE=document.getElementById('SLK_7'),SLKT();"  class="filterDiv animals" ATRBtxtITEM="Cat" >Cat</div>
+  <div id="SLK_8" numberTMA="8"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(7);idEE=document.getElementById('SLK_8'),SLKT();"  class="filterDiv animals" ATRBtxtITEM="Dog" >Dog</div>
+  <div id="SLK_9" numberTMA="9" ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(8);idEE=document.getElementById('SLK_9'),SLKT();"  class="filterDiv fruits" ATRBtxtITEM="Melon" >Melon</div>
+  <div id="SLK_10" numberTMA="10"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(9);idEE=document.getElementById('SLK_10'),SLKT();"  class="filterDiv fruits animals" ATRBtxtITEM="Kiwi" >Kiwi</div>
+  <div id="SLK_11" numberTMA="11" ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(10);idEE=document.getElementById('SLK_11'),SLKT();"  class="filterDiv fruits" ATRBtxtITEM="Banana" >Banana</div>
+  <div id="SLK_12" numberTMA="12" ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(11),idEE=document.getElementById('SLK_12'),SLKT();"  class="filterDiv fruits" ATRBtxtITEM="Lemon" >Lemon</div>
+  <div id="SLK_13" numberTMA="13"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(12);idEE=document.getElementById('SLK_13');SLKT();"  class="filterDiv animals" ATRBtxtITEM="Cow" >Cow</div>
+</div>
+
+<script>
+var idEE;
+var LERnumber;
+
+var arijat_BOKO =[false,false,false,false,false,false,false,false,false,false,false,false,false];
+
+function PUNCHER_RADIO_SELEKT (input_PARA){
+arijat_BOKO[input_PARA] = ! arijat_BOKO[input_PARA];
+}
+
+function SLKT(){
+setTENOVI();
+LERnumber=idEE.getAttribute("numberTMA");
+
+if (idEE.innerText.endsWith("!!") == false){
+idEE.innerHTML =idEE.getAttribute("ATRBselected")+ " "+ idEE.getAttribute("ATRBtxtITEM")+"  "+idEE.getAttribute("ATRBselected"); 
+
+
+
+}else{idEE.innerHTML =idEE.getAttribute("ATRBtxtITEM");}
+
+}
+
+function setTENOVI (){
+Tn_1=arijat_BOKO[0];
+Tn_2=arijat_BOKO[1];
+Tn_3=arijat_BOKO[2];
+Tn_4=arijat_BOKO[3];
+Tn_5=arijat_BOKO[4];
+Tn_6=arijat_BOKO[5];
+Tn_7=arijat_BOKO[6];
+Tn_8=arijat_BOKO[7];
+Tn_9=arijat_BOKO[8];
+Tn_10=arijat_BOKO[9];
+Tn_11=arijat_BOKO[10];
+Tn_12=arijat_BOKO[11];
+Tn_13=arijat_BOKO[12];
+
+}
+
+var Tn_1=null;
+var Tn_2=null;
+var Tn_3=null;
+var Tn_4=null;
+var Tn_5=null;
+var Tn_6=null;
+var Tn_7=null;
+var Tn_8=null;
+var Tn_9=null;
+var Tn_10=null;
+var Tn_11=null;
+var Tn_12=null;
+var Tn_13=null;
+var Tn_14=null;
+var Tn_15=null;
+
+var URL_Txt="";
+
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>

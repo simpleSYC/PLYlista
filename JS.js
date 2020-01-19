@@ -202,7 +202,7 @@ document.getElementById("myModalMM").style.display = "block";
 		LIVEselectTAB=false;
        
 																					setTENOVI();
-document.getElementById("MQW").VoARIJAA[2];
+document.getElementById("MQW").innerHTML=VoARIJAA[2];
 
 	   }
 				

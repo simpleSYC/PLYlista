@@ -190,7 +190,7 @@ var VoARIJAA;
 function OPENmodelMM() {
 	if(LIVEselectTAB == false){
                          
-              //                                                                  daSEloadneDATATA();						 
+                                                                                daSEloadneDATATA();						 
    
 document.getElementById("MMselec").style.height =screen.height+"px";
 document.getElementById("myModalMM").style.display = "block";
@@ -201,8 +201,8 @@ document.getElementById("myModalMM").style.display = "block";
 		document.getElementById("myModalMM").style.display = "none";	
 		LIVEselectTAB=false;
        
-				//																	setTENOVI();
-document.getElementById("MQW").innerHTML=(JSON.parse(localStorage.getItem("BKniza")));
+																					setTENOVI();
+document.getElementById("MQW").VoARIJAA[2];
 
 	   }
 				

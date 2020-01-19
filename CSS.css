@@ -1,0 +1,431 @@
+.time 
+	{ 
+		border-width: 0px;
+		text-align: center; 
+		padding-top: -15px; 
+	
+		padding-bottom: -15px;
+	
+		background-color:transparent;
+		font-size: 33px;
+		font-family: 'Roboto', sans-serif;
+	
+		color: white;
+	}
+	.main 
+	{
+		position: absolute;
+		width: 300px;
+		height: 200px;
+		z-index: 1;
+		top: 30%;
+		left: 50%;
+		margin: -100px 0 0 -150px;
+	}
+	h1
+	{
+		font-family: 'Josefin Slab', serif;
+		text-align: center;
+		font-weight: bold;
+		
+	}
+	BODYY
+	{
+		background:white;
+	}
+	.containor
+	{
+		height:150px;
+		width:150px;
+		background:#f5f5f5;
+		text-align: center;
+	}
+	.clock
+	{
+		width: 100%;
+		background: #ccc
+	}
+	.rightc
+	{
+		border-radius: 8px;
+		float: left; 
+		width: 32%;
+		margin-right:7px;
+		background-color: #303346;
+		align-content: center;
+		
+	}
+	.centerc
+	{
+		border-radius: 8px;
+		float: left;
+		background-color: #3f3d52;
+		margin-right:5px;
+		width: 32%;
+		align-content: center;
+		
+	}
+	.leftc
+	{
+		border-radius: 8px;
+		float: left;
+		width: 32%;
+		background-color: #52506b;
+		align-content: center;
+		
+	}
+	
+	.righth
+	{	
+		float: left; 
+		width: 32%;
+		margin-bottom: -8px;
+	}
+	.headding
+	{
+		font-size: 9px;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	.setalarm
+	{
+		font-size: 9px;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	.centerh
+	{
+		float: left;
+		width: 32%;
+		margin-right:5px;
+		padding-bottom:-5px;
+		margin-bottom: -8px;
+	}
+	
+	.lefth
+	{
+		float: left;
+		width: 32%;
+		margin-right:5px;
+		margin-bottom: -8px;
+	}
+	
+	.name
+	{
+		border-radius: 8px;
+		width: 100%;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		color: #2a2937;
+		
+		margin-bottom: -25px;
+	}
+	
+	option
+	{
+		font-size: 15px;
+		font-size: 25px;
+		font-family: 'Roboto', sans-serif;
+		color: #16a085;
+		 
+	}
+	select
+	{
+		font-size: 15px;
+		font-size: 25px;
+		font-family: 'Roboto', sans-serif;
+		color: #16a085;
+		width:100%;
+	}
+	#msg
+	{
+		font-size: 20px;
+		font-family: 'Roboto', sans-serif;
+		text-align:right;
+	}
+	input[type=button]
+	{
+		font-family: 'Roboto', sans-serif;
+		border-radius: 5px;
+		background:#eae2df;
+		font-size:20px;
+		
+	}
+	
+	
+	
+/*  timero up/swichot moy down
+*/	
+	
+	
+	
+	
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+	
+/*  swico up/ modalo down
+*/
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* modalo up /   deys model tabele down
+*/
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,th {
+  border: 1px ;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/*     deys model tabele up / BX down
+*/	
+	
+	
+.BX {
+  z-index:11;
+  background-color: #FF6F61;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%; 
+  bottom: 0px;
+  position: absolute;
+  right: 10px;
+  
+  }
+
+/*   BX up / ModaltTIMSKO down
+*/
+
+
+/* The Modal (background) */
+.modalCC {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalCC-contentCC {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  
+  width: 100%;
+  
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+
+
+
+/* The Modal (background) /////////////////////////////*/
+.modalMM {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  
+  left: 0;
+  top: 0;
+  width: 90%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalMM-contentMM {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  
+  width: 100%;
+  
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+	
+/*   ModaltTIMSKO up//
+*/
+	.myBtnD {
+		position:absolute;
+		top:0;
+		left:0;
+		
+	}
+	
+	.myBtnM {
+		position:absolute;
+		top:0;
+		right:0;
+		
+	}
+	/*
+	*/
+	
+	
+	
+	
+	
+	

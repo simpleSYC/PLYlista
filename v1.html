@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+</head>
 <style>
 .filterDiv {
   float: left;
@@ -50,7 +54,7 @@
   <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
   <button class="btn" onclick="filterSelection('colors')"> Colors</button>
 </div>
- numberTMA="" objname
+ numberTMA="" objname21
 <div class="container"> 
   <div id="SLK_1" numberTMA="1"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(0);idEE=document.getElementById('SLK_1');SLKT();" class="filterDiv cars" ATRBtxtITEM="BMW" >BMW</div>
   <div id="SLK_2" numberTMA="2"  ATRBselected="!!" onclick="PUNCHER_RADIO_SELEKT(1);idEE=document.getElementById('SLK_2');SLKT();" class="filterDiv colors fruits" ATRBtxtITEM="Orange" >Orange</div>
@@ -76,71 +80,23 @@ var arijat_BOKO =[false,false,false,false,false,false,false,false,false,false,fa
 function PUNCHER_RADIO_SELEKT (input_PARA){
 arijat_BOKO[input_PARA] = ! arijat_BOKO[input_PARA];
 }
-  
-  
-  
-	function SETTTVARBS() {
-		var name ="1kingerRRR";
-		var address="stajnmajer strase";
-		
-		var obj ={};
-		obj.name=name;
-		obj.address=address;
-		window.parent.postMessage(obj,"*");
-	}
-	
-	
-  
-  
+var BKniza="";
+var VOstringo ="";
+function PREBACI() {
+  VOstringo = JSON.stringify(arijat_BOKO);
+  localStorage.setItem("BKniza",VOstringo);
+}
+
 function SLKT(){
-setTENOVI();
-                                                           SETTTVARBS();
+PREBACI();
+
 LERnumber=idEE.getAttribute("numberTMA");
 
 if (idEE.innerText.endsWith("!!") == false){
 idEE.innerHTML =idEE.getAttribute("ATRBselected")+ " "+ idEE.getAttribute("ATRBtxtITEM")+"  "+idEE.getAttribute("ATRBselected"); 
 
-
-
 }else{idEE.innerHTML =idEE.getAttribute("ATRBtxtITEM");}
-
 }
-
-function setTENOVI (){
-Tn_1=arijat_BOKO[0];
-Tn_2=arijat_BOKO[1];
-Tn_3=arijat_BOKO[2];
-Tn_4=arijat_BOKO[3];
-Tn_5=arijat_BOKO[4];
-Tn_6=arijat_BOKO[5];
-Tn_7=arijat_BOKO[6];
-Tn_8=arijat_BOKO[7];
-Tn_9=arijat_BOKO[8];
-Tn_10=arijat_BOKO[9];
-Tn_11=arijat_BOKO[10];
-Tn_12=arijat_BOKO[11];
-Tn_13=arijat_BOKO[12];
-
-}
-
-var Tn_1=null;
-var Tn_2=null;
-var Tn_3=null;
-var Tn_4=null;
-var Tn_5=null;
-var Tn_6=null;
-var Tn_7=null;
-var Tn_8=null;
-var Tn_9=null;
-var Tn_10=null;
-var Tn_11=null;
-var Tn_12=null;
-var Tn_13=null;
-var Tn_14=null;
-var Tn_15=null;
-
-var URL_Txt="";
-
 filterSelection("all")
 function filterSelection(c) {
   var x, i;

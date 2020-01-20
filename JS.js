@@ -286,7 +286,7 @@ var Tn_2_TXTurl="https://www.youtube.com/watch?v=GQIqKuDaCig";
 var Tn_3_TXTurl="https://www.youtube.com/watch?v=Y5M6YKR7wUw";
 var Tn_4_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_5_TXTurl="https://www.youtube.com/watch?v=5555555";
-var Tn_6_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_6_TXTurl="https://www.youtube.com/watch?v=666666666";
 var Tn_7_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_8_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_9_TXTurl="https://www.youtube.com/watch?v=";
@@ -338,7 +338,7 @@ function CREATEariyata(){
 	
 	arijaNelementi=HAPPYarrya.length;
 	
-	THE_CHOUSEN_ONE=HAPPYarrya[5];
+	THE_CHOUSEN_ONE=HAPPYarrya[6].toString();
 	
 	
 		

@@ -406,7 +406,7 @@ tr:nth-child(even) {
 }
 
 	
-/*   ModaltTIMSKO up//
+/*   ModaltTIMSKO up// 2 top buttoni down
 */
 	.myBtnD {
 		position:absolute;
@@ -421,11 +421,26 @@ tr:nth-child(even) {
 		right:0;
 		
 	}
-	/*
+	/*       2 top buttoni  up /  ALARMOT UI down
 	*/
 	
+	.CLAS_animacija {
+		
+		z-index:9;
+		
+		
+		
+	}
 	
+	.CLAS_muzika {
+
+		z-index:-1;
+		display:none;
+		
+	}
 	
+	/*
+	*/
 	
 	
 	

@@ -11,11 +11,10 @@
 	var d6=Number;
 	var d7=Number;
 	
-	var HAPPYarrya=[]
+	var HAPPYarrya=[];
 	
 	var R1n100;
 	
-	var arijaNelementi;
 	var THE_CHOUSEN_ONE="";
 	
 	function setv()
@@ -173,7 +172,7 @@ document.getElementById("akcijaTM").style.height =screen.height+"px";
   
 //document.getElementById("akcijaTM").appendChild(document.getElementById("1pv1"));
 
-//(document.getElementById("MMselec")).src=URL_TMA_1;
+(document.getElementById("MMselec")).src=THE_CHOUSEN_ONE;
    
    
 (document.getElementById("1pv1")).play();
@@ -316,7 +315,6 @@ var Tn_15=null;
 var URL_Txt="";
 
 	
-	
 function CREATEariyata(){
 	
 	HAPPYarrya=[];
@@ -334,16 +332,9 @@ function CREATEariyata(){
 	if (Tn_12){HAPPYarrya.push(Tn_12_TXTurl)}
 	if (Tn_13){HAPPYarrya.push(Tn_13_TXTurl)}
 	
-//	arijaNelementi=HAPPYarrya.length;
-	
-	 R1n100 =Math.floor(Math.random() * HAPPYarrya.length);
+	R1n100 =Math.floor(Math.random() * HAPPYarrya.length);
 	 
-	
-	THE_CHOUSEN_ONE=HAPPYarrya[R1n100].toString();
-	
-	
-		
-		
+	THE_CHOUSEN_ONE=HAPPYarrya[R1n100].toString();	
 }	
 	
 	

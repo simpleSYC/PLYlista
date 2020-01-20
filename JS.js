@@ -280,7 +280,7 @@ CREATEariyata();
 }
 
 var Tn_1_TXTurl="https://www.youtube.com/watch?v=uD6Qzt1vjGM";
-var Tn_2_TXTurl="https://www.youtube.com/watch?v=GQIqKuDaCig";
+var Tn_2_TXTurl="./sounds/vlc-record-2019-09-26-12h28m33s-Drone Quadrocopter Flying Sound Effect [High Quality]-.mp4";
 var Tn_3_TXTurl="https://www.youtube.com/watch?v=Y5M6YKR7wUw";
 var Tn_4_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_5_TXTurl="https://www.youtube.com/watch?v=5555555";

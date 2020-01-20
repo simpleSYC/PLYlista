@@ -15,7 +15,7 @@
 	
 	var R1n100;
 	
-	var ARIJ#elementi;
+	var arijaNelementi;
 	var THE_CHOUSEN_ONE="";
 	
 	function setv()
@@ -336,7 +336,7 @@ function CREATEariyata(){
 	if (Tn_12){HAPPYarrya.push(Tn_12_TXTurl)}
 	if (Tn_13){HAPPYarrya.push(Tn_13_TXTurl)}
 	
-	ARIJ#elementi=HAPPYarrya.length;
+	arijaNelementi=HAPPYarrya.length;
 	
 	THE_CHOUSEN_ONE=HAPPYarrya[5]
 	

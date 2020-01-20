@@ -289,7 +289,7 @@ var Tn_6_TXTurl="https://www.youtube.com/watch?v=666666666";
 var Tn_7_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_8_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_9_TXTurl="https://www.youtube.com/watch?v=";
-var Tn_10_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_10_TXTurl="https://www.youtube.com/embed/nBjXgqIFicE?autoplay=1";
 var Tn_11_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_12_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_13_TXTurl="https://www.youtube.com/watch?v=";

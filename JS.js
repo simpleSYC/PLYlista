@@ -291,7 +291,7 @@ var Tn_9_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_10_TXTurl="https://www.youtube.com/embed/nBjXgqIFicE?autoplay=1";
 var Tn_11_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_12_TXTurl="https://www.youtube.com/watch?v=";
-var Tn_13_TXTurl="https://www.youtube.com/watch?v=VBQ1sE1Qwoc?autoplay=1";
+var Tn_13_TXTurl="https://www.youtube.com/embed/VBQ1sE1Qwoc?autoplay=1";
 var Tn_14_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_15_TXTurl="https://www.youtube.com/watch?v=";
 

@@ -182,7 +182,7 @@ document.getElementById("akcijaTM").style.height =screen.height+"px";
 (document.getElementById("1pv1")).src=THE_CHOUSEN_ONE;
    
    
-(document.getElementById("1pv1")).play();
+////////////////(document.getElementById("1pv1")).play();
 }
 
 function CloseFiniSOT() {
@@ -193,7 +193,7 @@ function CloseFiniSOT() {
 //(document.getElementById("1pv1")).remove();
 /////////////////////(document.getElementById("1pv1")).src="";
 
-(document.getElementById("1pv1")).pause();
+///////////////(document.getElementById("1pv1")).pause();
 (document.getElementById("1pv1")).src="";
 }
 

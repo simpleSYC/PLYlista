@@ -172,7 +172,7 @@ document.getElementById("akcijaTM").style.height =screen.height+"px";
   
 //document.getElementById("akcijaTM").appendChild(document.getElementById("1pv1"));
 
-(document.getElementById("MMselec")).src=THE_CHOUSEN_ONE;
+(document.getElementById("1pv1")).src=THE_CHOUSEN_ONE;
    
    
 (document.getElementById("1pv1")).play();

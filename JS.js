@@ -13,7 +13,10 @@
 	
 	var HAPPYarrya=[]
 	
-	var R1n100 =1;///da se stavi mat randomot
+	var R1n100;
+	
+	var ARIJ#elementi;
+	var THE_CHOUSEN_ONE="";
 	
 	function setv()
 	{
@@ -282,7 +285,7 @@ var Tn_1_TXTurl="https://www.youtube.com/watch?v=uD6Qzt1vjGM";
 var Tn_2_TXTurl="https://www.youtube.com/watch?v=GQIqKuDaCig";
 var Tn_3_TXTurl="https://www.youtube.com/watch?v=Y5M6YKR7wUw";
 var Tn_4_TXTurl="https://www.youtube.com/watch?v=";
-var Tn_5_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_5_TXTurl="https://www.youtube.com/watch?v=5555555";
 var Tn_6_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_7_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_8_TXTurl="https://www.youtube.com/watch?v=";
@@ -316,8 +319,29 @@ var URL_Txt="";
 	
 function CREATEariyata(){
 	
+	 R1n100 =Math.floor(Math.random() * 101);
+	 
 	HAPPYarrya=[];
 	if (Tn_1){HAPPYarrya.push(Tn_1_TXTurl)}
+	if (Tn_2){HAPPYarrya.push(Tn_2_TXTurl)}
+	if (Tn_3){HAPPYarrya.push(Tn_3_TXTurl)}
+	if (Tn_4){HAPPYarrya.push(Tn_4_TXTurl)}
+	if (Tn_5){HAPPYarrya.push(Tn_5_TXTurl)}
+	if (Tn_6){HAPPYarrya.push(Tn_6_TXTurl)}
+	if (Tn_7){HAPPYarrya.push(Tn_7_TXTurl)}
+	if (Tn_8){HAPPYarrya.push(Tn_8_TXTurl)}
+	if (Tn_9){HAPPYarrya.push(Tn_9_TXTurl)}
+	if (Tn_10){HAPPYarrya.push(Tn_10_TXTurl)}
+	if (Tn_11){HAPPYarrya.push(Tn_11_TXTurl)}
+	if (Tn_12){HAPPYarrya.push(Tn_12_TXTurl)}
+	if (Tn_13){HAPPYarrya.push(Tn_13_TXTurl)}
+	
+	ARIJ#elementi=HAPPYarrya.length;
+	
+	THE_CHOUSEN_ONE=HAPPYarrya[5]
+	
+	
+		
 		
 }	
 	

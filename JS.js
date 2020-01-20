@@ -187,6 +187,7 @@ function CloseFiniSOT() {
 /////////////////////(document.getElementById("1pv1")).src="";
 
 (document.getElementById("1pv1")).pause();
+(document.getElementById("1pv1")).src="";
 }
 
 var LIVEselectTAB=false;
@@ -206,9 +207,7 @@ document.getElementById("myModalMM").style.display = "block";
 	}else{if(LIVEselectTAB){		
 		document.getElementById("myModalMM").style.display = "none";	
 		LIVEselectTAB=false;
-       
 																					setTENOVI();
-document.getElementById("MQW").innerHTML=VoARIJAA[2];
 
 	   }
 				
@@ -292,7 +291,7 @@ var Tn_9_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_10_TXTurl="https://www.youtube.com/embed/nBjXgqIFicE?autoplay=1";
 var Tn_11_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_12_TXTurl="https://www.youtube.com/watch?v=";
-var Tn_13_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_13_TXTurl="https://www.youtube.com/watch?v=VBQ1sE1Qwoc?autoplay=1";
 var Tn_14_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_15_TXTurl="https://www.youtube.com/watch?v=";
 

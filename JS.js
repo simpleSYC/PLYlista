@@ -338,7 +338,7 @@ function CREATEariyata(){
 	
 	arijaNelementi=HAPPYarrya.length;
 	
-	THE_CHOUSEN_ONE=HAPPYarrya[5]
+	THE_CHOUSEN_ONE=HAPPYarrya[5];
 	
 	
 		

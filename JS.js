@@ -169,7 +169,7 @@ OPENmodelTMgo();
 	}
 	
 function OPENmodelTMgo() {
-(document.getElementById("2pv2")).src="./QQ/tst.html"	 
+(document.getElementById("2pv2")).src="https://threejs.org/examples/#webgl_shaders_ocean";	 
 document.getElementById("2pv2").style.height =screen.height+"px";
 document.getElementById("modalCC-contentCC").style.height =screen.height+"px";
 document.getElementById("akcijaTM").style.height =screen.height+"px";

@@ -336,9 +336,9 @@ function CREATEariyata(){
 	if (Tn_12){HAPPYarrya.push(Tn_12_TXTurl)}
 	if (Tn_13){HAPPYarrya.push(Tn_13_TXTurl)}
 	
-	arijaNelementi=HAPPYarrya.length;
+	arijaNelementi=HAPPYarrya.length - 1;
 	
-	THE_CHOUSEN_ONE=HAPPYarrya[6].toString();
+	THE_CHOUSEN_ONE=HAPPYarrya[(arijaNelementi)].toString();
 	
 	
 		

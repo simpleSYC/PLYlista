@@ -11,11 +11,20 @@
 	var d6=Number;
 	var d7=Number;
 	
+	
+    var LIVEselectTAB=false;
+
+    var VoARIJAA;
+
+	
 	var HAPPYarrya=[];
 	
 	var R1n100;
 	
 	var THE_CHOUSEN_ONE="";
+	
+	
+	var testoTXT="";
 	
 	function setv()
 	{
@@ -77,6 +86,7 @@ if((myDEY==1&d1==1)||(myDEY==2&d2==1)||(myDEY==3&d3==1)||(myDEY==4&d4==1)||(myDE
 		var dats =hr+'*'+min+'*'+sec;
 		if(dat2v==dats && set)
 			{
+				testoTXT="ooooooooooooooooonnnnadeno";
 		alarmotFINISIRAN();		
 	//			document.getElementById('alm').play();
 //				document.getElementById('sb').style.visibility="visible";
@@ -151,8 +161,6 @@ OPENmodelTMgo();
 	
 	function CloseFiniSOT(){
 		
-		
-		
 		document.getElementById('aleTO').style.display="block";
 		
 		document.getElementById('BX').style.display="none";
@@ -164,9 +172,8 @@ function OPENmodelTMgo() {
 	
 document.getElementById("akcijaTM").style.height =screen.height+"px";
 
-		document.getElementById('aleTO').style.display="none";
-		document.getElementById('BX').style.display="block";
-		
+	document.getElementById('aleTO').style.display="none";
+	document.getElementById('BX').style.display="block";
 		
    document.getElementById("myModalTm").style.display = "block";
   
@@ -190,27 +197,22 @@ function CloseFiniSOT() {
 (document.getElementById("1pv1")).src="";
 }
 
-var LIVEselectTAB=false;
-
-var VoARIJAA;
-
 function OPENmodelMM() {
-	if(LIVEselectTAB == false){
-                         
-                                                                                daSEloadneDATATA();						 
+	if(LIVEselectTAB == false){       
+      //                                                         daSEloadneDATATA();						 
    
-document.getElementById("MMselec").style.height =screen.height+"px";
-document.getElementById("myModalMM").style.display = "block";
+			document.getElementById("MMselec").style.height =screen.height+"px";
+			document.getElementById("myModalMM").style.display = "block";
 	
-	LIVEselectTAB=true;
+			LIVEselectTAB=true;
 	
 	}else{if(LIVEselectTAB){		
 		document.getElementById("myModalMM").style.display = "none";	
 		LIVEselectTAB=false;
-																					setTENOVI();
-
+																	setTENOVI();	
+	   
 	   }
-				
+		
  }
 }
 
@@ -218,8 +220,6 @@ function OPENmodel() {
   document.getElementById("myModal").style.display = "block";
   
   
-
-
 var d = new Date();
 var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 document.getElementById("demoDEY").innerHTML = days[d.getDay()];
@@ -311,9 +311,6 @@ var Tn_13=null;
 var Tn_14=null;
 var Tn_15=null;
 
-var URL_Txt="";
-
-	
 function CREATEariyata(){
 	
 	HAPPYarrya=[];

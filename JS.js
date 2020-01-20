@@ -319,8 +319,6 @@ var URL_Txt="";
 	
 function CREATEariyata(){
 	
-	 R1n100 =Math.floor(Math.random() * 101);
-	 
 	HAPPYarrya=[];
 	if (Tn_1){HAPPYarrya.push(Tn_1_TXTurl)}
 	if (Tn_2){HAPPYarrya.push(Tn_2_TXTurl)}
@@ -336,9 +334,12 @@ function CREATEariyata(){
 	if (Tn_12){HAPPYarrya.push(Tn_12_TXTurl)}
 	if (Tn_13){HAPPYarrya.push(Tn_13_TXTurl)}
 	
-	arijaNelementi=HAPPYarrya.length - 1;
+//	arijaNelementi=HAPPYarrya.length;
 	
-	THE_CHOUSEN_ONE=HAPPYarrya[(arijaNelementi)].toString();
+	 R1n100 =Math.floor(Math.random() * HAPPYarrya.length);
+	 
+	
+	THE_CHOUSEN_ONE=HAPPYarrya[R1n100].toString();
 	
 	
 		

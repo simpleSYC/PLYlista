@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en"   >
+	<head>
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<style>
+	body{
+	overflow:hidden;
+	}
+	
+	
+	.ale {
+  position: absolute;
+  top: -55px;
+  left:0px;
+  
+}
+	
+	
+	
+	.divR{
+	
+	z-index:3;
+	position: absolute;
+  right: 0px;
+  bottom: 0px;
+  
+	width:100px;
+	height:100px;
+	
+	transparent:0;
+	
+	}
+	
+	.divZ{
+	
+	z-index:4;
+	position: absolute;
+  left: 20%;
+  top: 0px;
+  
+	width:100px;
+	height:100px;
+	
+	transparent:0;
+	
+	}	
+	
+	.divLP {
+    text-align: center;
+    z-index: 47;
+    position: absolute;
+    left: 30%;
+    top: 33%;
+    width: 100px;
+    height: 33%;
+    background-color: 
+    green;
+}
+
+
+.divPRP {
+    z-index: 100;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 33%;
+    background-color: 
+    purple;
+}
+
+
+.divPR22P {
+    z-index: 100;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+    height: 33%;
+    background-color: 
+    yellow;
+}	
+	.preso {
+	text-align:center;
+	z-index:101;
+	position: absolute;
+  left: auto;
+  bottom: 	-250%;
+  color:red;
+  font-size:33px;
+	
+	}
+	
+	.YY {
+    position: absolute;
+    z-index: 58;
+    opacity: 0.5;
+    background-color: 
+    red;
+    width: 100%;
+    height: 22%;
+}
+	
+	
+	
+	</style>
+	
+	</head>
+<body onload="ld();" id="bd" onloadstart="gbc();"  >
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+//144 81
+
+
+</script>
+
+<!--
+
+
+-->
+
+<div class="ale"    id="ale"     >
+<iframe id="myframe"  type="text/html" style="border: 0px solid ;z-index:1;" frameborder="0"  src="https://threejs.org/examples/#webgl_shaders_ocean" height="1" width="1"></iframe>
+
+
+<div class="divR" ></div>
+<div class="divZ" ></div>
+
+
+</div>
+
+
+
+<audio  id="myAudio"  loop autoplay >
+  <source src="https://1kinger.github.io/pp22/teqqq11.ogg" type="audio/ogg">
+  
+</audio>
+
+<audio  id="myAudio2"  loop autoplay >
+
+  <source  src="https://r4---sn-uxax4vopj5qx-q0nl.googlevideo.com/videoplayback?expire=1576565233&ei=kSX4XcCUBYuu1wLomrGwBQ&ip=2a01%3Ac22%3Ad036%3A2b00%3Ac406%3A355d%3Ac3f5%3A934c&id=o-AIayZd7jkqv3ky0hhYw2lkA6ZWWM4s27okb51eeltBLB&itag=18&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-uxax4vopj5qx-q0nl%2Csn-4g5ednek&ms=au%2Crdu&mv=m&mvi=3&pl=39&pcm2=no&initcwndbps=1453750&mime=video%2Fmp4&gir=yes&clen=242749810&ratebypass=yes&dur=3602.552&lmt=1549982605831934&mt=1576543616&fvip=4&fexp=23842630&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRAIgBVPP9XVu3RH_a8t9_gs7LDXt4NCZKoEXq51LOnjPctQCIFfSIqCpr94JYrJhcPHe-864YQuMU393Yx4YbdJEqwE9&sig=ALgxI2wwRgIhAIgFkEA8ldN9j0GyYxqjVa7bZayBKEhD9-fqZbDG5M9tAiEAhOe276zi7WUVPJYurSSDqwW1TTa7XngFohQiFNKnXCw%3D"type="audio/mp4">
+  <source  src="https://r4---sn-uxax4vopj5qx-q0nl.googlevideo.com/videoplayback?expire=1576565233&ei=kSX4XcCUBYuu1wLomrGwBQ&ip=2a01%3Ac22%3Ad036%3A2b00%3Ac406%3A355d%3Ac3f5%3A934c&id=o-AIayZd7jkqv3ky0hhYw2lkA6ZWWM4s27okb51eeltBLB&itag=18&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-uxax4vopj5qx-q0nl%2Csn-4g5ednek&ms=au%2Crdu&mv=m&mvi=3&pl=39&pcm2=no&initcwndbps=1453750&mime=video%2Fmp4&gir=yes&clen=242749810&ratebypass=yes&dur=3602.552&lmt=1549982605831934&mt=1576543616&fvip=4&fexp=23842630&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRAIgBVPP9XVu3RH_a8t9_gs7LDXt4NCZKoEXq51LOnjPctQCIFfSIqCpr94JYrJhcPHe-864YQuMU393Yx4YbdJEqwE9&sig=ALgxI2wwRgIhAIgFkEA8ldN9j0GyYxqjVa7bZayBKEhD9-fqZbDG5M9tAiEAhOe276zi7WUVPJYurSSDqwW1TTa7XngFohQiFNKnXCw%3D" type="audio/ogg">
+
+  
+</audio>
+
+
+
+<script>
+var xMSC = document.getElementById("myAudio");
+var xMSC2 = document.getElementById("myAudio2");
+
+  xMSC.volume = 0.3;
+  
+  xMSC2.volume = 0.7;
+  
+  
+  
+
+</script>
+
+
+
+<script>
+var vid = document.getElementById("vio");
+vid.oncanplaythrough = function() {
+  vid.play();
+};
+</script> 
+
+
+
+<script>
+function gbc(){
+
+ //   $("#YY").fadeTo(500 ,0 );
+	
+ //   $("#divLP").fadeTo(500 ,0 );
+	
+	
+    $("#preso").fadeTo(500 ,0 );
+	
+ //     $("#YY").css("z-index", "-1");
+	
+ //     $("#divLP").css("z-index", "-13");
+	  
+      $("#preso").css("z-index", "-130");
+
+}
+
+$('.preso').on('click', function() {
+ //   $("#ytplayer")[0].src += "?autoplay=1";
+ 
+	
+	xMSC.play(); 
+	
+    $("#YY").fadeTo(500 ,0 );
+	
+    $("#divLP").fadeTo(500 ,0 );
+	
+	
+    $("#preso").fadeTo(500 ,0 );
+	
+      $("#YY").css("z-index", "-1");
+	
+      $("#divLP").css("z-index", "-3");
+	  
+      $("#preso").css("z-index", "-4");
+});
+
+$('.divLP').on('click', function() {
+    $("#ytplayer")[0].src += "?autoplay=1";
+
+	
+    $("#YY").fadeTo(500 ,0 );
+	
+	
+      $("#YY").css("z-index", "-1");
+	
+      $("#divLP").css("z-index", "-13");
+});
+
+
+$('.YY').on('click', function() {
+ //   $("#ytplayer")[0].src += "?autoplay=1";
+
+	
+    $("#YY").fadeTo(500 ,0 );
+});
+
+var ytbv= document.getElementById('YY');
+
+
+
+function ld() {
+var c1lo = document.getElementById("myframe");
+  var w =  screen.width;
+  var h =  (screen.height)+55 ;
+  
+  c1lo.style.width = w +"px";
+  c1lo.style.height = h +"px";
+}
+</script>
+</body>
+</html>
+

@@ -11,6 +11,10 @@
 	var d6=Number;
 	var d7=Number;
 	
+	var HAPPYarrya=[]
+	
+	var R1n100 =1;///da se stavi mat randomot
+	
 	function setv()
 	{
 		salm();
@@ -269,7 +273,26 @@ Tn_11=VoARIJAA[10];
 Tn_12=VoARIJAA[11];
 Tn_13=VoARIJAA[12];
 
+
+CREATEariyata();
+
 }
+
+var Tn_1_TXTurl="https://www.youtube.com/watch?v=uD6Qzt1vjGM";
+var Tn_2_TXTurl="https://www.youtube.com/watch?v=GQIqKuDaCig";
+var Tn_3_TXTurl="https://www.youtube.com/watch?v=Y5M6YKR7wUw";
+var Tn_4_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_5_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_6_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_7_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_8_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_9_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_10_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_11_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_12_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_13_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_14_TXTurl="https://www.youtube.com/watch?v=";
+var Tn_15_TXTurl="https://www.youtube.com/watch?v=";
 
 var Tn_1=null;
 var Tn_2=null;
@@ -291,7 +314,12 @@ var URL_Txt="";
 
 	
 	
+function CREATEariyata(){
 	
+	HAPPYarrya=[];
+	if (Tn_1){HAPPYarrya.push(Tn_1_TXTurl)}
+		
+}	
 	
 	
 	

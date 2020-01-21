@@ -286,7 +286,7 @@ var Tn_1_TXTurl="./WKUP.ogg";
 var Tn_2_TXTurl="./sounds/vlc-record-2019-09-26-12h28m33s-Drone Quadrocopter Flying Sound Effect [High Quality]-.mp4";
 var Tn_3_TXTurl="https://www.youtube.com/watch?v=Y5M6YKR7wUw";
 var Tn_4_TXTurl="https://www.youtube.com/watch?v=";
-var Tn_5_TXTurl="https://www.youtube.com/watch?v=5555555";
+var Tn_5_TXTurl="https://content.production.cdn.art19.com/validation=1579692968,02a8660c-817c-54aa-a6fd-d37e4a539bbb,CrSp_sqWB2o-7sNsRFwix0pjOSE/episodes/eebccbc1-2f80-4e7a-89e5-d9d4952d1711/2a1781b81fde858563a103d142b385031ef3d002ade499d505c4ec784ea6d60aecbb6bce515a2f62d014469db4c46d04bf4afda0e5fbdad1b6de49fbf141c705/JP%20EP%2037%20120119%20The%20Struggle%20Between%20Chaos%20and%20Order_01.mp3";
 var Tn_6_TXTurl="https://www.youtube.com/watch?v=666666666";
 var Tn_7_TXTurl="https://www.youtube.com/watch?v=";
 var Tn_8_TXTurl="https://www.youtube.com/watch?v=";

@@ -359,11 +359,21 @@ function CREATEariyata(){
 
 	
 function setCurTime() { 
-	RANDseeke =Math.floor(Math.random() * 11);
+
+
+
+	RANDseeke =(Math.floor(Math.random() * 4)+1);
+	
+	
   (document.getElementById("1pv1")).currentTime = RANDseeke*10;
   
- 
+   (document.getElementById("1pv1")).play();
 } 
+
+function SETINGSaudio(){
+//	  (document.getElementById("1pv1")).
+	
+}
 	
 	function daSEloadneDATATA(){
 		

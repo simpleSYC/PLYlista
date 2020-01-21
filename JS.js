@@ -184,6 +184,7 @@ document.getElementById("akcijaTM").style.height =screen.height+"px";
 
 (document.getElementById("1pv1")).src=THE_CHOUSEN_ONE;
    
+   	setCurTime();
    
 ////////////////(document.getElementById("1pv1")).play();
 }
@@ -318,7 +319,7 @@ var Tn_15=null;
 function CREATEariyata(){
 	
 	
-		RANDseeke =Math.floor(Math.random() * 11);
+		
 		
 		
 	HAPPYarrya=[];
@@ -340,14 +341,13 @@ function CREATEariyata(){
 	 
 	THE_CHOUSEN_ONE=HAPPYarrya[R1n100].toString();	
 	
-	setCurTime();
+
 }	
 	
 
 	
-	
-	
 function setCurTime() { 
+	RANDseeke =Math.floor(Math.random() * 11);
   (document.getElementById("1pv1")).currentTime = RANDseeke*10;
   
  

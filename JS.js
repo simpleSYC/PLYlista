@@ -296,9 +296,16 @@ CREATEariyata();
 
 }
 
+//https://public.bn.files.1drv.com/y4mQ8cNtmrDD28zr2z5AmJ3_ll2XsSQmcUDwmle5mOeGYaBMVeT-BRnja7im5MeUUOkN4yqJTfgvmN3Ok6r4FdT8NCnCrgTM7sWWawgpKKS7j35EWTr8rL2QaxCwzsrG1vk-N_ToXJfgB_PRz8iMxVRywThgTOjRbPnIauxUXJXWlaAe0kEaOzc36t2GRRPOYXsAAUQjlYzi8MlQmvhW1X9H7yX_N6arum-cUX16lGhK08?
+
+var MYurl="./JBP/";
+
 var Tn_1_TXTurl="./WKUP.ogg";
+
 var Tn_2_TXTurl="https://content.production.cdn.art19.com/validation=1579692909,3b76d4c5-c498-5bbd-bf7c-b32f925585a0,ucUx9nfrzpe50u1EPZU_0imU7z8/episodes/4418f7c7-40b2-4521-a06c-4c31fa6244cd/ab6799baa9b162e38a5471d2559dbcdd2dbd4d2b9de0c84817cdb116207440a7f530b0e66e00aed999fa3a026b904f04c289eeb45c09285c1706968f919facdf/JP%20EP%204B%20Akira%20the%20Don%20041419%20Mastered%20Final.mp3";
-var Tn_3_TXTurl="https://content.production.cdn.art19.com/validation=1579692929,38319abb-5439-50d4-b67e-f5756c417a2a,oALP4VLTtBz9aHF4DdgnmI3fqG4/episodes/8ca7c974-8068-4d23-9c51-ed08caf45015/37cecbdbcc1123d6f692a84f4a254525bf0e11214f0131d0bde965a0b1b419c180af31f2e594ed2749cea62bc0552d4aca3902a028b071bb7655d0ad0ff17d8c/JP%20EP%201C.mp3";
+
+var Tn_3_TXTurl="https://public.bn.files.1drv.com/y4mQ8cNtmrDD28zr2z5AmJ3_ll2XsSQmcUDwmle5mOeGYaBMVeT-BRnja7im5MeUUOkN4yqJTfgvmN3Ok6r4FdT8NCnCrgTM7sWWawgpKKS7j35EWTr8rL2QaxCwzsrG1vk-N_ToXJfgB_PRz8iMxVRywThgTOjRbPnIauxUXJXWlaAe0kEaOzc36t2GRRPOYXsAAUQjlYzi8MlQmvhW1X9H7yX_N6arum-cUX16lGhK08?";
+
 var Tn_4_TXTurl="https://content.production.cdn.art19.com/validation=1579692977,f46c7c20-e26e-5f8e-a00d-90fc9f126742,2kBm6bOoxknPvM3yLYtxI8nOZVY/episodes/487bac30-ad5d-4b17-b7ac-e3d259966c64/210b7b5aaea1eac68ff95f8db3a01fa793e17fb0df6e40555a15d652b1f2919838d062488b19792433492c43b77c67dbb6adf7c1b52d0be0dcc7939abac684df/JP%20EP%2036%20112419%20%20Value%20is%20bound%20by%20Limitation.mp3";
 var Tn_5_TXTurl="https://content.production.cdn.art19.com/validation=1579689711,7a441930-62d7-5ad2-be3f-4e5dff68711b,e6H_Dia53mE8SdRo_ZMs5oehn6A/episodes/8ad8c3ec-0c64-459b-b1cc-7ef8e1125acb/b47126484c836b47ace80540c0c98006b755d50fad2fdfcda6cbc4e2ad621da31ef1ea2dfe33aedc9d36db20d8a9b0b23d8f07843f8be9f3f715b8695b381c6e/JP%20EP%2042%20011920%20Mixdown%201.mp3";
 var Tn_6_TXTurl="https://www.youtube.com/watch?v=666666666";

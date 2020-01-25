@@ -363,9 +363,9 @@ var MYurl="./JBP/";
 
 var Tn_1_TXTurl="./WKUP.ogg";
 
-var Tn_2_TXTurl="https://qyip7w.bn.files.1drv.com/y4mpr-NsO6KVQgUDCDVu_QUz57qwKS-vTBYEyPkzM0ZEuhV19Vukj_rKRlXdBtTbOCglmh02hwhSZoi2HBMW1nseh3sQyt3PQzuJNHLANxZlZ_bGBRi93mrlGPNoziPsu99MrUuEkliPqq6y4SXjtay5fhnKkqv7OWUuOLa6VM6j_KK551BIZkP4z4VBnGbr_1xPjoO35IPg8hWaEPv9hsIAccVFvFYe43BJaN9zw1QyT8/JP%20EP%201C.mp3";
+var Tn_2_TXTurl="http://www.actualizedfiles.com/audio/main_videos/a-rant-against-morality.mp3";
 
-var Tn_3_TXTurl="https://qyip7w.bn.files.1drv.com/y4m-T7UrYkM3291AiqjPrVpKjPlkerrni8XQwqNpN_XxrpL4_dVVjNg6CUTmyDkMETz8OC57uzw3S6QSUFfkYG2sW9oKW0rxZP-V1KyP4pMpInHsGwi-nOED2B0ppQi1gszqWWj_2yFcYYIX1yrZ9NdEIlDanOCkC01B2U81ANp0-cFc8SxrQpYZPGnZuDAuqUdb1aiC_c78t8_ed0wEWDfHv9UDR895VBtc5eoWP4Zq9k/JP%20EP%203%20040719%20Portland.mp3";
+var Tn_3_TXTurl="http://www.actualizedfiles.com/audio/main_videos/2cb-trip-report.mp3";
 
 var Tn_4_TXTurl="https://qyip7w.bn.files.1drv.com/y4muualDsrA8S3iDWX6jb38Q0SyY2hs6_BVw15veVpxI7t01ge50k4Pj5IAsHitrX-YnVp6_qCgvoExJsT2g9Icb_xNPl0syi-4Ag28mvmJpi1vlphYxeOnc_obNbOKsQ4pkaFErv-KMOspFZfgwTF6f6n6K4FOfQzJ8rTAAGJOfg7g71oRjKtVxhs6eoLB7q0repG-oSzWQO6wGZt-qp1W0vBmpuDVghdL8UCs2ohbEI0/JP%20EP%205%20Sacramento%20042119.mp3";
 var Tn_5_TXTurl="https://content.production.cdn.art19.com/validation=1579689711,7a441930-62d7-5ad2-be3f-4e5dff68711b,e6H_Dia53mE8SdRo_ZMs5oehn6A/episodes/8ad8c3ec-0c64-459b-b1cc-7ef8e1125acb/b47126484c836b47ace80540c0c98006b755d50fad2fdfcda6cbc4e2ad621da31ef1ea2dfe33aedc9d36db20d8a9b0b23d8f07843f8be9f3f715b8695b381c6e/JP%20EP%2042%20011920%20Mixdown%201.mp3";

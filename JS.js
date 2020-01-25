@@ -430,10 +430,10 @@ function setCurTime() {
 
 
 
-	RANDseeke =(Math.floor(Math.random() * 10)+1);
+	RANDseeke =(Math.floor(Math.random() * 2)+1);
 	
 	
-  (document.getElementById("1pv1")).currentTime = RANDseeke*600;
+  (document.getElementById("1pv1")).currentTime = RANDseeke*300;
   
    (document.getElementById("1pv1")).play();
 } 

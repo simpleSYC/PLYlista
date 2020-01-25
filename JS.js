@@ -367,7 +367,8 @@ var Tn_2_TXTurl="./sounds/emotional-intelligence.mp3";
 
 var Tn_3_TXTurl="https://www.dailymotion.com/video/x7qzdfp?playlist=x610xb";
 
-var Tn_4_TXTurl="https://qyip7w.bn.files.1drv.com/y4muualDsrA8S3iDWX6jb38Q0SyY2hs6_BVw15veVpxI7t01ge50k4Pj5IAsHitrX-YnVp6_qCgvoExJsT2g9Icb_xNPl0syi-4Ag28mvmJpi1vlphYxeOnc_obNbOKsQ4pkaFErv-KMOspFZfgwTF6f6n6K4FOfQzJ8rTAAGJOfg7g71oRjKtVxhs6eoLB7q0repG-oSzWQO6wGZt-qp1W0vBmpuDVghdL8UCs2ohbEI0/JP%20EP%205%20Sacramento%20042119.mp3";
+
+var Tn_4_TXTurl="https://firebasestorage.googleapis.com/v0/b/test01-2867c.appspot.com/o/JP%20EP%201C.mp3?alt=media&token=44ae0cbf-6a29-45cd-bc73-26fba59df524";
 var Tn_5_TXTurl="https://content.production.cdn.art19.com/validation=1579689711,7a441930-62d7-5ad2-be3f-4e5dff68711b,e6H_Dia53mE8SdRo_ZMs5oehn6A/episodes/8ad8c3ec-0c64-459b-b1cc-7ef8e1125acb/b47126484c836b47ace80540c0c98006b755d50fad2fdfcda6cbc4e2ad621da31ef1ea2dfe33aedc9d36db20d8a9b0b23d8f07843f8be9f3f715b8695b381c6e/JP%20EP%2042%20011920%20Mixdown%201.mp3";
 var Tn_6_TXTurl="https://qyip7w.bn.files.1drv.com/y4ml2HSrTU1Rhs2-kGrBx20Q5w_f3cBmyaMF44pJyuvha5KlSJV4jRV38XCKMwubWUn026SNTVF3ub-qKIrNOhd9DoTUma42CXA8lLCUaHGvgr-3fxc-i2Vi_06hDwcj9nN3axmr-XmETBZAq2E3P-Rs4n5eDhvIQYQWWIxhLm2WIWBZrwHvbNl-5_m5AFgKKyyJ5OkEOPyZhI4H5zslHy6QNY3QoU5JHEZgKeWqDq-eZI/JP%20EP%207%20050519%20Stephen%20Hicks.mp3";
 var Tn_7_TXTurl="https://www.youtube.com/watch?v=";

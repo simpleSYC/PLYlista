@@ -363,7 +363,7 @@ var MYurl="./JBP/";
 
 var Tn_1_TXTurl="./WKUP.ogg";
 
-var Tn_2_TXTurl="http://www.actualizedfiles.com/audio/main_videos/a-rant-against-morality.mp3";
+var Tn_2_TXTurl="./sounds/emotional-intelligence.mp3";
 
 var Tn_3_TXTurl="http://www.actualizedfiles.com/audio/main_videos/2cb-trip-report.mp3";
 

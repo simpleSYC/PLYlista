@@ -10,7 +10,7 @@ function ZEMI_BG_SOUND(){
 	if (BG_s_4){HAPPYarrya22.push(bonustraka_4_URL)}
 	if (BG_s_5){HAPPYarrya22.push(bonustraka_5_URL)}
 	
-	R_BG_S =Math.floor(Math.random() * HAPPYarrya.length);
+	R_BG_S =Math.floor(Math.random() * HAPPYarrya22.length);
 	
 	THE_CHOUSEN_ONE_BG_SOUNDD=HAPPYarrya22[R_BG_S].toString();	
 }

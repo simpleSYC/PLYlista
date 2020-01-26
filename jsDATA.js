@@ -1,4 +1,18 @@
+var bonusTRAKAurlscr="https://xml.ambient-mixer.com/audio/";
 
+var bonustraka_0_URL="";//null
+
+var bonustraka_1_URL="c/0/b/c0b85d82403ff285dc9e377196a79505.ogg"; // betoven
+
+var bonustraka_2_URL="d/f/c/dfca20bf0c692f52b50dd30590569132.ogg";// mhh piano
+
+var bonustraka_3_URL="5/e/d/5edf5d06600d7f3d6d6d3af4cc60a080.ogg";// pilence
+
+var bonustraka_4_URL="5/e/f/5efacc85bafc0fb15866eae6beaa7bae.ogg";// indiana  flejta
+
+var bonustraka_5_URL="b/7/d/b7d03930d00071d428e0da77fcf6731f.ogg"; // lofi
+
+											
 
  /// uste samo sedmicata da se dodade!!!
 /// ????   JP%20EP%204B%20Akira%20the%20Don%20041419%20Mastered%20Final.mp3?alt=media&token=a168b5d6-27e0-41d0-a556-f6ca50b8b438

@@ -114,17 +114,24 @@ var SOUNDBgd=[false,false,false,false,false,false];
 
 
 function QonClick(element){
-if(element.checked ){SOUNDBgd[element.getAttribute("ARTB")] = true}else{SOUNDBgd[element.getAttribute("ARTB")] = false}}
+if(element.checked ){SOUNDBgd[element.getAttribute("ARTB")] = true}else{SOUNDBgd[element.getAttribute("ARTB")] = false}
 }
 
 
 
+var BKnizaSSS="";
+var VOstringoSSS ="";
 
 var BKniza="";
 var VOstringo ="";
+	
 function PREBACI() {
   VOstringo = JSON.stringify(arijat_BOKO);
   localStorage.setItem("BKniza",VOstringo);
+	
+	
+  VOstringo = JSON.stringify(SOUNDBgd);
+  localStorage.setItem("BKniza",VOstringoSSS);
 }
 
 function SLKT(){

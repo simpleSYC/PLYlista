@@ -185,6 +185,21 @@ document.getElementById("akcijaTM").style.height =screen.height+"px";
 //document.getElementById("akcijaTM").appendChild(document.getElementById("1pv1"));
 
 (document.getElementById("1pv1")).src=MYurl+THE_CHOUSEN_ONE;                     ///decodeURIComponent();
+
+
+
+
+
+
+
+
+(document.getElementById("1pv1BBGG")).src=bonusTRAKAurlscr+THE_CHOUSEN_ONE_BG_SOUNDD; 
+
+
+
+
+
+
    
    	setCurTime();
    
@@ -213,6 +228,8 @@ function CloseFiniSOT() {
 
 ///////////////(document.getElementById("1pv1")).pause();
 (document.getElementById("1pv1")).src="";
+(document.getElementById("1pv1BBGG")).src="";
+
 //(document.getElementById("2pv2")).src="./QQ/tst.html"
 }
 
@@ -305,8 +322,24 @@ CREATEariyata();
 
 testARIJJA=VoARIJAASSS;
 
+BG_s_0=testARIJJA[1];
+BG_s_1=testARIJJA[1];
+BG_s_2=testARIJJA[2];
+BG_s_3=testARIJJA[3];
+BG_s_4=testARIJJA[4];
+BG_s_5=testARIJJA[5];
+
+
+ZEMI_BG_SOUND();
 }
 var testARIJJA=[];
+var BG_s_0=null;
+var BG_s_1=null;
+var BG_s_2=null;
+var BG_s_3=null;
+var BG_s_4=null;
+var BG_s_5=null;
+
 
 var Tn_1=null;
 var Tn_2=null;
@@ -364,6 +397,8 @@ function setCurTime() {
   (document.getElementById("1pv1")).currentTime = RANDseeke*600;
   
    (document.getElementById("1pv1")).play();
+      (document.getElementById("1pv1BBGG")).play();
+   
 } 
 
 function SETINGSaudio(){

@@ -265,7 +265,11 @@ function CHANGETO(){
 	alarmCHEK();
 }	
 function ckDEYS(){clikDEY1();clikDEY2();clikDEY3();clikDEY4();clikDEY5();clikDEY6();clikDEY7();sumeSPANKO();}
-function sumeSPANKO(){d0=d1+d2+d3+d4+d5+d6+d7;document.getElementById("DEYselectos").innerHTML =d0;}	
+function sumeSPANKO(){
+	d0=d1+d2+d3+d4+d5+d6+d7;
+	document.getElementById("DEYselectos").innerHTML =d0;
+	}	
+
 	function clikDEY1 (){if(document.getElementById("dy1").checked == true){d1 =1}else{d1 =0}}
 	function clikDEY2 (){if(document.getElementById("dy2").checked == true){d2 =1}else{d2 =0}}
 	function clikDEY3 (){if(document.getElementById("dy3").checked == true){d3 =1}else{d3 =0}}

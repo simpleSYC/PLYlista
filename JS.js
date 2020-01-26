@@ -184,7 +184,11 @@ document.getElementById("akcijaTM").style.height =screen.height+"px";
   
 //document.getElementById("akcijaTM").appendChild(document.getElementById("1pv1"));
 
-(document.getElementById("1pv1")).src=MYurl+THE_CHOUSEN_ONE;                     ///decodeURIComponent();
+var TSTling="https://wild-life.ambient-mixer.com/anti4stress-wild-life";
+
+(document.getElementById("1pv1")).src=TSTling;                     ///decodeURIComponent();
+
+////(document.getElementById("1pv1")).src=MYurl+THE_CHOUSEN_ONE;                     ///decodeURIComponent();
    
    	setCurTime();
    

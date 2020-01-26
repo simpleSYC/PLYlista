@@ -58,7 +58,7 @@
 		myDEY = dat.getDay();
 		
 			
-if((myDEY==0&d1==1)||(myDEY==1&d2==1)||(myDEY==2&d3==1)||(myDEY==3&d4==1)||(myDEY==4&d5==1)||(myDEY==5&d6==1)||(myDEY==6&d7==1))	
+if((myDEY==1&d1==1)||(myDEY==2&d2==1)||(myDEY==3&d3==1)||(myDEY==4&d4==1)||(myDEY==5&d5==1)||(myDEY==6&d6==1)||(myDEY==0&d7==1))
 {
 	if(document.getElementById('msgQ2').innerHTML!=""){document.getElementById('msgQ2').innerHTML="";}
 
@@ -88,7 +88,7 @@ if((myDEY==0&d1==1)||(myDEY==1&d2==1)||(myDEY==2&d3==1)||(myDEY==3&d4==1)||(myDE
 			{
 			
 			
-if((myDEY==0&d1==1)||(myDEY==1&d2==1)||(myDEY==2&d3==1)||(myDEY==3&d4==1)||(myDEY==4&d5==1)||(myDEY==5&d6==1)||(myDEY==6&d7==1))
+if((myDEY==1&d1==1)||(myDEY==2&d2==1)||(myDEY==3&d3==1)||(myDEY==4&d4==1)||(myDEY==5&d5==1)||(myDEY==6&d6==1)||(myDEY==0&d7==1))
 			{alarmotFINISIRAN();}	
 		
 	//			document.getElementById('alm').play();

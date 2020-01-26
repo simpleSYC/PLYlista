@@ -50,8 +50,7 @@
 //		document.getElementById('db').style.visibility="visible";
 //		document.getElementById('alm').style.visibility="hidden";
 	}
-	function dis()
-	{
+	function dis(){
 		
 		
 		var dat= new Date();
@@ -87,8 +86,11 @@ if((myDEY==0&d1==1)||(myDEY==1&d2==1)||(myDEY==2&d3==1)||(myDEY==3&d4==1)||(myDE
 		var dats =hr+'*'+min+'*'+sec;
 		if(dat2v==dats && set)
 			{
-				testoTXT="ooooooooooooooooonnnnadeno";
-		alarmotFINISIRAN();		
+			
+			
+if((myDEY==0&d1==1)||(myDEY==1&d2==1)||(myDEY==2&d3==1)||(myDEY==3&d4==1)||(myDEY==4&d5==1)||(myDEY==5&d6==1)||(myDEY==6&d7==1))
+			{alarmotFINISIRAN();}	
+		
 	//			document.getElementById('alm').play();
 //				document.getElementById('sb').style.visibility="visible";
 				//alert("Wake Up Man!");

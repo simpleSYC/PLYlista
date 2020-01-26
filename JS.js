@@ -295,8 +295,11 @@ Tn_13=VoARIJAA[12];
 
 
 CREATEariyata();
-}
 
+testARIJJA=VoARIJAASSS;
+
+}
+var testARIJJA=[];
 
 var Tn_1=null;
 var Tn_2=null;
@@ -366,7 +369,7 @@ function SETINGSaudio(){
 		      VoARIJAA= JSON.parse(localStorage.getItem("BKniza"));
 			  
 			  
-		      VoARIJAA= JSON.parse(localStorage.getItem("BKnizaSSS"));
+		      VoARIJAASSS= JSON.parse(localStorage.getItem("BKnizaSSS"));
 			  
 	}
 	

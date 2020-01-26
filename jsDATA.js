@@ -1,3 +1,32 @@
+function ZEMI_BG_SOUND(){
+	
+	HAPPYarrya22=[];
+	
+
+	if (BG_s_0){HAPPYarrya22.push(bonustraka_0_URL)}
+	if (BG_s_1){HAPPYarrya22.push(bonustraka_1_URL)}
+	if (BG_s_2){HAPPYarrya22.push(bonustraka_2_URL)}
+	if (BG_s_3){HAPPYarrya22.push(bonustraka_3_URL)}
+	if (BG_s_4){HAPPYarrya22.push(bonustraka_4_URL)}
+	if (BG_s_5){HAPPYarrya22.push(bonustraka_5_URL)}
+	
+	R_BG_S =Math.floor(Math.random() * HAPPYarrya.length);
+	
+	THE_CHOUSEN_ONE_BG_SOUNDD=HAPPYarrya22[R_BG_S].toString();	
+}
+var HAPPYarrya22=[];
+var R_BG_S;
+ 
+var THE_CHOUSEN_ONE_BG_SOUNDD;
+
+
+
+
+
+
+
+
+
 var bonusTRAKAurlscr="https://xml.ambient-mixer.com/audio/";
 
 var bonustraka_0_URL="";//null

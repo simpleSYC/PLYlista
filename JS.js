@@ -277,7 +277,10 @@ function sumeSPANKO(){d0=d1+d2+d3+d4+d5+d6+d7;document.getElementById("DEYselect
 	
 
 function setTENOVI (){
-daSEloadneDATATA();	
+daSEloadneDATATA();
+
+	
+daSEloadneDATATASSS();	/////////////////////////////
 
 Tn_1=VoARIJAA[0];
 Tn_2=VoARIJAA[1];
@@ -369,10 +372,13 @@ function SETINGSaudio(){
 		      VoARIJAA= JSON.parse(localStorage.getItem("BKniza"));
 			  
 			  
-		      VoARIJAASSS= JSON.parse(localStorage.getItem("BKnizaSSS"));
 			  
 	}
 	
-	
+		function daSEloadneDATATASSS(){
+		
+		
+		      VoARIJAASSS= JSON.parse(localStorage.getItem("BKnizaSSS"));
+	}
 	
 	

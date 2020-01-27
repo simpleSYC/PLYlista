@@ -69,26 +69,26 @@ var RANDimgeNN;
 ///// info sorce http://hdwallpaperindia.blogspot.com/2012/11/iphone-5-nature-wallpapers-in-hd-1080p.html
 
 
-var IMGsrc_1="./slikicitee/im1.jpg"
-var IMGsrc_2="./slikicitee/im2.jpg"
-var IMGsrc_3="./slikicitee/im3.jpg"
-var IMGsrc_4="./slikicitee/im4.jpg"
-var IMGsrc_5="./slikicitee/im5.jpg"
-var IMGsrc_6="./slikicitee/im6.jpg"
-var IMGsrc_7="./slikicitee/im7.jpg"
-var IMGsrc_8="./slikicitee/im8.jpg"
-var IMGsrc_9="./slikicitee/im9.jpg"
-var IMGsrc_10="./slikicitee/im10.jpg"
-var IMGsrc_11="./slikicitee/im11.jpg"
-var IMGsrc_12="./slikicitee/im12.jpg"
-var IMGsrc_13="./slikicitee/im13.jpg"
-var IMGsrc_14="./slikicitee/im14.jpg"
-var IMGsrc_15="./slikicitee/im15.jpg"
-var IMGsrc_16="./slikicitee/im16.jpg"
-var IMGsrc_17="./slikicitee/im17.jpg"
-var IMGsrc_18="./slikicitee/im18.jpg"
-var IMGsrc_19="./slikicitee/im19.jpg"
-var IMGsrc_20="./slikicitee/im20.jpg"
+var IMGEsrc_1="./slikicitee/im1.jpg"
+var IMGEsrc_2="./slikicitee/im2.jpg"
+var IMGEsrc_3="./slikicitee/im3.jpg"
+var IMGEsrc_4="./slikicitee/im4.jpg"
+var IMGEsrc_5="./slikicitee/im5.jpg"
+var IMGEsrc_6="./slikicitee/im6.jpg"
+var IMGEsrc_7="./slikicitee/im7.jpg"
+var IMGEsrc_8="./slikicitee/im8.jpg"
+var IMGEsrc_9="./slikicitee/im9.jpg"
+var IMGEsrc_10="./slikicitee/im10.jpg"
+var IMGEsrc_11="./slikicitee/im11.jpg"
+var IMGEsrc_12="./slikicitee/im12.jpg"
+var IMGEsrc_13="./slikicitee/im13.jpg"
+var IMGEsrc_14="./slikicitee/im14.jpg"
+var IMGEsrc_15="./slikicitee/im15.jpg"
+var IMGEsrc_16="./slikicitee/im16.jpg"
+var IMGEsrc_17="./slikicitee/im17.jpg"
+var IMGEsrc_18="./slikicitee/im18.jpg"
+var IMGEsrc_19="./slikicitee/im19.jpg"
+var IMGEsrc_20="./slikicitee/im20.jpg"
  /// uste samo sedmicata da se dodade!!!
 /// ????   JP%20EP%204B%20Akira%20the%20Don%20041419%20Mastered%20Final.mp3?alt=media&token=a168b5d6-27e0-41d0-a556-f6ca50b8b438
 
@@ -187,5 +187,3 @@ var Tn_19_TXTurl="";
  
 var Tn_20_TXTurl="";
  
-
-

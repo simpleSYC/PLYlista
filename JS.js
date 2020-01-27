@@ -116,7 +116,7 @@ if((myDEY==1&d1==1)||(myDEY==2&d2==1)||(myDEY==3&d3==1)||(myDEY==4&d4==1)||(myDE
 	}
 	function salm()
 	{
-		document.getElementById('alm').pause();
+	//	document.getElementById('alm').pause();
 //		document.getElementById('sb').style.visibility="hidden";
 //		document.getElementById('msg').innerHTML='Alarm OFF';
 	}

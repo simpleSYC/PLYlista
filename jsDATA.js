@@ -67,66 +67,28 @@ var bonustraka_5_URL="b/7/d/b7d03930d00071d428e0da77fcf6731f.ogg"; // lofi
 var RANDimgeSRC;
 var RANDimgeNN;
 ///// info sorce http://hdwallpaperindia.blogspot.com/2012/11/iphone-5-nature-wallpapers-in-hd-1080p.html
-var IMGEsrc_1="http://4.bp.blogspot.com/-n86onjK-ccs/UJjr7I9K__I/AAAAAAAAIJQ/_1B-uzXCfbA/s1600/iPhone+5+Nature+HD+Wallpapers+Image01.jpg";
 
 
-var IMGEsrc_2="http://4.bp.blogspot.com/-P9kkVxIs8ps/UJjr8H44_1I/AAAAAAAAIJY/XK5KBBn-ir4/s1600/iPhone+5+Nature+HD+Wallpapers+Image02.jpg";
-
-
-var IMGEsrc_3="http://4.bp.blogspot.com/-6JKhBpD4kcI/UJjr9BeI3EI/AAAAAAAAIJg/3jMhdpDnigc/s1600/iPhone+5+Nature+HD+Wallpapers+Image03.jpg";
-
-
-var IMGEsrc_4="http://4.bp.blogspot.com/-YYvJw4zr5gc/UJjr9zfv_9I/AAAAAAAAIJo/fhnamS04ykE/s1600/iPhone+5+Nature+HD+Wallpapers+Image04.jpg";
-
-
-var IMGEsrc_5="http://4.bp.blogspot.com/-bihF1rAnyhw/UJjr_klenXI/AAAAAAAAIJw/3N5T6R3pHq0/s1600/iPhone+5+Nature+HD+Wallpapers+Image05.jpg";
-
-
-var IMGEsrc_6="http://4.bp.blogspot.com/-KKbK9whyAxU/UJjsAw2ikuI/AAAAAAAAIJ4/j2Q2dlQ1Ey4/s1600/iPhone+5+Nature+HD+Wallpapers+Image06.jpg";
-
-
-var IMGEsrc_7="http://2.bp.blogspot.com/-OOwOQ2NyDEw/UJjsCEGI0QI/AAAAAAAAIKA/6FYcjkr7aKg/s1600/iPhone+5+Nature+HD+Wallpapers+Image07.jpg";
-
-
-var IMGEsrc_8="http://1.bp.blogspot.com/-ywLtXsCfe_U/UJjsDWiiW-I/AAAAAAAAIKI/2_xAhgYGeRU/s1600/iPhone+5+Nature+HD+Wallpapers+Image08.jpg";
-
-
-var IMGEsrc_9="http://2.bp.blogspot.com/-CVJfajz_Rd4/UJjsFPU6WZI/AAAAAAAAIKQ/vl32PlYmsPQ/s1600/iPhone+5+Nature+HD+Wallpapers+Image09.jpg";
-
-
-var IMGEsrc_10="http://2.bp.blogspot.com/-fzczetIcWrw/UJjsF5xoMTI/AAAAAAAAIKY/dfW1nN9uNow/s1600/iPhone+5+Nature+HD+Wallpapers+Image10.jpg";
-
-
-var IMGEsrc_11="http://1.bp.blogspot.com/-Az-kOUFuAKY/UJjsG6VJHmI/AAAAAAAAIKg/Uo8kS2pmuVA/s1600/iPhone+5+Nature+HD+Wallpapers+Image11.jpg";
-
-
-var IMGEsrc_12="http://2.bp.blogspot.com/-XblkUiPjfhQ/UJjsHn1E-oI/AAAAAAAAIKo/5eSP0iYHBjY/s1600/iPhone+5+Nature+HD+Wallpapers+Image12.jpg";
-
-
-var IMGEsrc_13="http://2.bp.blogspot.com/-NLVibATfAuE/UJjsIhul9JI/AAAAAAAAIKw/se8uSozX610/s1600/iPhone+5+Nature+HD+Wallpapers+Image13.jpg";
-
-
-var IMGEsrc_14="http://2.bp.blogspot.com/--0y7lz51qr4/UJjsK1eW92I/AAAAAAAAIK4/qUzns_eoRBw/s1600/iPhone+5+Nature+HD+Wallpapers+Image14.jpg";
-
-
-var IMGEsrc_15="http://2.bp.blogspot.com/-WJm_qxnhg0g/UJjsMKGrgxI/AAAAAAAAILA/epIsimxJ2rY/s1600/iPhone+5+Nature+HD+Wallpapers+Image15.jpeg";
-
-
-var IMGEsrc_16="http://1.bp.blogspot.com/-feW7MMbEYFo/UJjsN8xD--I/AAAAAAAAILI/TbI7RXwEB-c/s1600/iPhone+5+Nature+HD+Wallpapers+Image16.jpg";
-
-
-var IMGEsrc_17="http://1.bp.blogspot.com/-3FrbHlJUBXo/UJjsPDByo-I/AAAAAAAAILQ/vDaqJm8MbbA/s1600/iPhone+5+Nature+HD+Wallpapers+Image17.jpg";
-
-
-var IMGEsrc_18="http://1.bp.blogspot.com/-eJ_zzXQoVL4/UJjsQJf-bYI/AAAAAAAAILY/7IUWgDeHbJA/s1600/iPhone+5+Nature+HD+Wallpapers+Image18.jpg";
-
-
-var IMGEsrc_19="http://3.bp.blogspot.com/-TMTTlXrytuo/UJjsRYdl8RI/AAAAAAAAILg/GYyUxFggp7Q/s1600/iPhone+5+Nature+HD+Wallpapers+Image19.jpg";
-
-
-var IMGEsrc_20="http://2.bp.blogspot.com/-AWZ8kXk7LVw/UJjsSd3V4hI/AAAAAAAAILo/-qCPVu-KA4U/s1600/iPhone+5+Nature+HD+Wallpapers+Image20.jpg";
-
-
+var IMGsrc_1="./slikicitee/im1.jpg"
+var IMGsrc_2="./slikicitee/im2.jpg"
+var IMGsrc_3="./slikicitee/im3.jpg"
+var IMGsrc_4="./slikicitee/im4.jpg"
+var IMGsrc_5="./slikicitee/im5.jpg"
+var IMGsrc_6="./slikicitee/im6.jpg"
+var IMGsrc_7="./slikicitee/im7.jpg"
+var IMGsrc_8="./slikicitee/im8.jpg"
+var IMGsrc_9="./slikicitee/im9.jpg"
+var IMGsrc_10="./slikicitee/im10.jpg"
+var IMGsrc_11="./slikicitee/im11.jpg"
+var IMGsrc_12="./slikicitee/im12.jpg"
+var IMGsrc_13="./slikicitee/im13.jpg"
+var IMGsrc_14="./slikicitee/im14.jpg"
+var IMGsrc_15="./slikicitee/im15.jpg"
+var IMGsrc_16="./slikicitee/im16.jpg"
+var IMGsrc_17="./slikicitee/im17.jpg"
+var IMGsrc_18="./slikicitee/im18.jpg"
+var IMGsrc_19="./slikicitee/im19.jpg"
+var IMGsrc_20="./slikicitee/im20.jpg"
  /// uste samo sedmicata da se dodade!!!
 /// ????   JP%20EP%204B%20Akira%20the%20Don%20041419%20Mastered%20Final.mp3?alt=media&token=a168b5d6-27e0-41d0-a556-f6ca50b8b438
 
@@ -225,3 +187,5 @@ var Tn_19_TXTurl="";
  
 var Tn_20_TXTurl="";
  
+
+

@@ -445,7 +445,7 @@ tr:nth-child(even) {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+  width:100%;
   border-radius: 18px;
 }
 
@@ -453,5 +453,27 @@ tr:nth-child(even) {
 	/*
 	*/
 	
+	  /* The image used */
+
+
+
+.FTOv2vimg {
+  display: block;
+  border-radius: 18px;
 	
+	
+	
+  background-image: url("./R+2vLOGO192.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+	
+}
 	

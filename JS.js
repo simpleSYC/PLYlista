@@ -185,7 +185,9 @@ document.getElementById("akcijaTM").style.height =screen.height+"px";
 //document.getElementById("akcijaTM").appendChild(document.getElementById("1pv1"));
 
 (document.getElementById("1pv1")).src=MYurl+THE_CHOUSEN_ONE;                     ///decodeURIComponent();
-
+if(document.getElementById("1pv1").volume != 1){
+	document.getElementById("1pv1").volume = 1; 
+} 
 
 
 
@@ -194,8 +196,9 @@ document.getElementById("akcijaTM").style.height =screen.height+"px";
 
 
 (document.getElementById("1pv1BBGG")).src=bonusTRAKAurlscr+THE_CHOUSEN_ONE_BG_SOUNDD; 
-
-
+if(document.getElementById("1pv1BBGG").volume != 0.6){
+	document.getElementById("1pv1BBGG").volume = 0.6; 
+} 
 
 
 

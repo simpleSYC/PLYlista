@@ -1,7 +1,7 @@
 	var set=0;
 	var URLvid = "https://www.youtube.com/embed/nBjXgqIFicE?autoplay=1";
 	var defaltBonus = "./WKUP.ogg"
-	var myDEY;
+	var myDEY=Number;
 	var d0=Number;
 	var d1=Number;
 	var d2=Number;
@@ -25,30 +25,27 @@
 	var THE_CHOUSEN_ONE="";
 	
 	
-	var testoTXT="";
+	////// sea dodadeno
+	var dats;
+	
+	
 	
 	function setv()
 	{
-		salm();
 		var hr2= document.getElementById('hour2').value;
 		var min2= document.getElementById('min2').value;
 		var sec2= document.getElementById('sec2').value;
-		if(hr2<10)
-			hr2='0'+hr2;
-		if(min2<10)
-			min2='0'+min2;
-		if(sec2<10)
-			sec2='0'+sec2;
+		if(hr2<10){hr2='0'+hr2;}
+			
+		if(min2<10){min2='0'+min2;}
+			
+		if(sec2<10){sec2='0'+sec2;}
+			
 		document.getElementById('d2').value=hr2+'*'+min2+'*'+sec2;
-	
 
-
-
-
-		set=1;/////////////ova bese 1
-//		document.getElementById('msg').innerHTML='Alarm ON';
-//		document.getElementById('db').style.visibility="visible";
-//		document.getElementById('alm').style.visibility="hidden";
+		set=1;
+		
+		
 	}
 	function dis(){
 		
@@ -73,30 +70,32 @@ if((myDEY==1&d1==1)||(myDEY==2&d2==1)||(myDEY==3&d3==1)||(myDEY==4&d4==1)||(myDE
 		var hr=dat.getHours();
 		var min=dat.getMinutes();
 		var sec=dat.getSeconds();
-		if(hr<10)
-			hr='0'+hr;
-		if(min<10)
-			min='0'+min;
-		if(sec<10)
-			sec='0'+sec;
+		if(hr<10){hr='0'+hr;}
+			
+		if(min<10){min='0'+min;}
+			
+		if(sec<10){sec='0'+sec;}
+			
 		document.getElementById('hour').value=hr;
 		document.getElementById('min').value=min;
 		document.getElementById('sec').value=sec;
+////		var dat2v=document.getElementById('d2').value;
 		var dat2v=document.getElementById('d2').value;
-		var dats =hr+'*'+min+'*'+sec;
-		if(dat2v==dats && set)
+		dats =hr+'*'+min+'*'+sec; ///var pred dats imase
+///		if(dat2v==dats && set)
+	if((document.getElementById('d2').value==dats) && (set==1))
 			{
 			
 			
 if((myDEY==1&d1==1)||(myDEY==2&d2==1)||(myDEY==3&d3==1)||(myDEY==4&d4==1)||(myDEY==5&d5==1)||(myDEY==6&d6==1)||(myDEY==0&d7==1))
 			{alarmotFINISIRAN();}	
-		
-	//			document.getElementById('alm').play();
-//				document.getElementById('sb').style.visibility="visible";
-				//alert("Wake Up Man!");
+
+
+
 				set=0;
 				document.getElementById('db').style.visibility="hidden";
-//				document.getElementById('msg').innerHTML='Alarm RINGING';
+
+
 			}
 		setTimeout("dis()",500);
 	}
@@ -114,12 +113,7 @@ if((myDEY==1&d1==1)||(myDEY==2&d2==1)||(myDEY==3&d3==1)||(myDEY==4&d4==1)||(myDE
 			}
 		}
 	}
-	function salm()
-	{
-	//	document.getElementById('alm').pause();
-//		document.getElementById('sb').style.visibility="hidden";
-//		document.getElementById('msg').innerHTML='Alarm OFF';
-	}
+	
 	function dalm()
 	{
 		set=0;
@@ -148,7 +142,7 @@ if((myDEY==1&d1==1)||(myDEY==2&d2==1)||(myDEY==3&d3==1)||(myDEY==4&d4==1)||(myDE
 	
 	function alarmSTOP (){
 				document.getElementById('msgQ').innerHTML="alarmot OFF";
-				salm();
+				
 				dalm();
 		document.getElementById("swico").checked =false;
 	}
